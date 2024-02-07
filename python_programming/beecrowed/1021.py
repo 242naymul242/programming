@@ -1,4 +1,5 @@
 taka_and_poisa = float(input())
+
 taka = int(taka_and_poisa)
 poisa = int((taka_and_poisa * 100) - (taka * 100))
 print("NOTAS:")
@@ -23,7 +24,6 @@ print("MOEDAS:")
 now_taka = now_taka - note2 * 2
 modes1 = int(now_taka // 1) 
 print(f"{modes1} moeda(s) de R$ 1.00")
-
 now_taka = poisa
 modes2 = int(now_taka // 50)
 print(f"{modes2} moeda(s) de R$ 0.50")
@@ -33,20 +33,9 @@ print(f"{modes3} moeda(s) de R$ 0.25")
 now_taka = now_taka - modes3 * 25
 modes4 = int(now_taka // 10)
 print(f"{modes4} moeda(s) de R$ 0.10")
-
 now_taka = now_taka - modes4 * 10
 modes5 = int(now_taka // 5)
 print(f"{modes5} moeda(s) de R$ 0.05")
-
 now_taka = now_taka - modes5 * 5
 modes6 = int(now_taka // 1)
 print(f"{modes6} moeda(s) de R$ 0.01")
-
-
-
-
-
-
-
-
-
