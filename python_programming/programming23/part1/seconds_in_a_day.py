@@ -1,0 +1,7 @@
+number_of_days = int(input("How many days? "))
+hours_in_a_day = int(24)
+minute_in_one_hours = int(60) 
+minute_in_a_day = int(hours_in_a_day*minute_in_one_hours)
+seconds_in_a_minute =int(60) 
+seconds_in_a_day = int(minute_in_a_day*seconds_in_a_minute)
+print(f"Seconds in that many days: {number_of_days*seconds_in_a_day}")

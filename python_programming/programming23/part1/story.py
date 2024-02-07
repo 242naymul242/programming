@@ -1,0 +1,5 @@
+part1 = input("Please type in a name: ")
+part2 = input("Please type in a year: ") 
+print(f"{part1} is a valiant knight, born in the year {part2}. One morning {part1} woke up to an")
+print(f"awful racket: a dragon was approaching the village. Only {part1} could save the ")
+print("village's residents.")
